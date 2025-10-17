@@ -5,7 +5,7 @@
 ## 🧱 Modelos Disponíveis
 
 ### 📋 Planos de Teste
-- `Plano_de_teste.md`
+- [Plano de Teste](Plano_de_teste.md)
 
 ### 🧩 Casos de Teste (BDD / Gherkin)
 em breve
