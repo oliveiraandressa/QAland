@@ -50,7 +50,7 @@ Definir a estratégia e os critérios de testes, garantindo a cobertura funciona
 ## 📋 Casos de Teste
 
 
-### 💡 Feature: Login de usuário 
+### 💡 Cenário: Login de usuário 
 **Dado que** o usuario deseja fazer login **quando** insere suas informações corretamente e clica em login  **então** o sistema permite o acesso
 
 **Passos:**
