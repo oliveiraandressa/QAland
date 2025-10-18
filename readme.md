@@ -8,7 +8,7 @@
 - [Plano de Teste](Plano_de_teste.md)
 
 ### 🧩 Casos de Teste (BDD / Gherkin)
-em breve
+- [Caso de Teste](Caso_de_teste.md)
 
 ### 📈 Relatórios
 em breve - 
