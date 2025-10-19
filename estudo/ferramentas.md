@@ -9,3 +9,7 @@
 
 ## Ferramentas de documentação e acompanhamento de bug
 - Jira
+
+
+
+## Outras ferramentas e requisitos
