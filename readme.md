@@ -1,22 +1,20 @@
-# 🧪 QA Templates & Test Docs
-
----
-
-## 🧱 Modelos Disponíveis
+## 🧪 Templates Disponíveis
 
 ### 📋 Planos de Teste
-- [Plano de Teste](Plano_de_teste.md)
+- [Template de Plano de Teste](./templates/Plano_de_teste.md)
 
-### 🧩 Casos de Teste (BDD / Gherkin)
-- [Caso de Teste](Caso_de_teste.md)
+### 🧩 Casos de Teste 
+- [Template de Caso de Teste](./templates/Caso_de_teste.md)
 
 ### 📈 Relatórios
-em breve - 
+[Template de Relatório de Teste](./templates/relatorio.md)
 
 ---
 
-## ⚙️ Como Usar
+# 🤓Links úteis
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/oliveiraandressa/vicsa.git
+👾 [Itens de Markdown](./links_uteis/markdown-cheatsheet.md)  
+
+📄 [Comandos git](./links_uteis/git-cheatsheet.md)  
+
+😍 [Lista de Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)

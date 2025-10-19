@@ -19,6 +19,13 @@ Armazenamento temporário para acesso mais rápido a dados.
 **Exemplo prático:**  
 No navegador, ao visitar um site, imagens e dados são guardados localmente. Na próxima visita, o site carrega mais rápido porque usou o cache em vez de baixar tudo novamente.
 
+
+## CI/CD
+Conjunto de práticas e ferramentas que automatizam a integração contínua (CI) — integrar alterações e executar testes automaticamente — e a entrega/implantação contínua (CD) — disponibilizar builds aprovados em ambientes como staging ou produção.
+
+**Exemplo prático:**  
+Ao fazer um push para a branch main, um pipeline do GitHub Actions roda: 1) instala dependências e executa testes automatizados; 2) builda a aplicação; 3) se os testes passarem, faz o deploy para o ambiente de staging; 4) após validação, o mesmo pipeline ou um passo manual promove a versão para produção. Para leigos: é como um esteira automática que testa e coloca novas versões do site no ar sem intervenção manual diária.
+
 # D
 ## Deploy
 Processo de publicar uma versão da aplicação em um ambiente.

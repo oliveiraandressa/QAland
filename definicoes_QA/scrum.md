@@ -1,3 +1,3 @@
-Pessoas do scrum
+## Pessoas do scrum
 
 ### Product Owner

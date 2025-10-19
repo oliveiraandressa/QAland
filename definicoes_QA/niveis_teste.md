@@ -77,7 +77,7 @@
 **Técnicas:** Automação de testes, smoke e sanity tests.  
 **Observações:**  
 - É recorrente, não pontual.  
-- Ideal automatizar para rodar em CI/CD.  
+- Ideal automatizar para rodar em [CI/CD](glossario.md#cicd).  
 - Sempre revalide funcionalidades antigas.  
 
 ---

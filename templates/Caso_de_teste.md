@@ -8,10 +8,10 @@
 1. Insere email e senha válidos
 2. Clica em 'login'
 
-**Resultado esperado:** <br>
+**Resultado esperado:**  
 Redireciona para o dashboard
 
-**Status** <br>
+**Status**  
 ✅ Passou ou ⛔ Falhou 
 
 ---
