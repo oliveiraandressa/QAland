@@ -1,9 +1,13 @@
+## Linguagens de programação
+### JavaScript
+
 ## Ferramenta de teste de unidade
 ### Jest 
 ### JUnit
 ### pytest
 
 ## Ferramentas de automação
+### Cypress
 ### Robot Framework
 ### Playwright
 ### Selenium
@@ -16,8 +20,11 @@
 
 ## Ferramentas de documentação e acompanhamento de bug
 ### Jira
+### Confluence
 
 
 
 ## Outras ferramentas e requisitos
 
+## Certificações
+### Certificação ISTQB
