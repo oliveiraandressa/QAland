@@ -29,6 +29,16 @@
 - Teste de usabilidade
 - Teste de segurança
 
+
+# 🧠 Boas Práticas
+
+- Automatize sempre que possível.  
+- Registre resultados e evidências.  
+- Use nomenclaturas padronizadas (CT-001, BUG-045, etc).  
+- Mantenha seus documentos versionados no Git.  
+- Alinhe o escopo com o time e o PO antes de testar.  
+
+---
 # Pontos Importantes pro QA
 
 ## Como saber 'o que' testar?
