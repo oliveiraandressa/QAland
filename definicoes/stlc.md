@@ -1,7 +1,4 @@
-# 🧩 Quality Assurance   
-
-
-## 🧭 Ciclo de Vida do Teste de Software (STLC)
+# 🧭 Ciclo de Vida do Teste de Software (STLC)
 As **fases** ou **STLC** são as etapas que organizam o processo de teste do início ao fim.
 
  🗓️ **Planejamento:** definir o que será testado, prazos e ferramentas.  
@@ -17,6 +14,15 @@ As **fases** ou **STLC** são as etapas que organizam o processo de teste do in�
 > 🔁 O STLC ocorre dentro do SDLC (Ciclo de Vida do Software) e se repete a cada nova entrega ou versão.
 
 ---
+
+# 🗓️ Fase de Planejamento 
+# 📋 Fase de Análise
+# ✍️ Fase de Design:
+# ⚙️ Implementação:
+# 🧪 Execução:
+# 🐞 Registro de defeitos:
+# ✅ Encerramento:
+
 
 ## 🧱 Níveis de Teste – Em qual etapa ocorre o teste?
 
@@ -59,13 +65,7 @@ A escolha depende do que está disponível:
 ### ⚫ Caixa Preta (Funcional)  
 Foca no **que o sistema faz**, sem olhar o código.  
 **Uso:** validar se o software atende aos requisitos.  
-**Exemplos:**  
-🔹 Particionamento de equivalência  
-🔹 Análise de valor limite  
-🔹 Tabelas de decisão  
-🔹 Transição de estados
 
----
 
 ### ⚪ Caixa Branca (Estrutural)  
 Foca na **lógica interna e no código**.  
@@ -158,6 +158,86 @@ Verifica se o sistema faz o que foi planejado.
 > 🔗 As classificações se combinam — um teste de regressão (tipo) pode ser automatizado (execução) e baseado em caixa preta (técnica).
 
 ---
+
+# Sobre o design dos testes
+
+## 🎯 Técnicas de Design de Casos de Teste
+
+**Particionamento de Equivalência**  
+Dividir os dados possíveis em **grupos que se comportam do mesmo jeito** no sistema.  
+Em vez de testar todos os valores, testamos **um exemplo de cada grupo**.
+
+**Exemplo:**  
+Um campo aceita idades de **18 a 60 anos**.  
+Você pode testar:
+- Um valor **válido** → `30`
+- Um valor **inválido abaixo** → `15`
+- Um valor **inválido acima** → `70`
+
+Assim, você cobre as três “partições” (faixas de comportamento).
+
+---
+
+**Análise de Valor Limite**  
+Foca nos **limites exatos** onde o comportamento pode mudar.  
+Erros costumam acontecer **nas bordas** dos intervalos.
+
+**Exemplo:**  
+Se o sistema aceita idades de **18 a 60**, você testa:
+- `17` → abaixo do limite  
+- `18` → **limite mínimo**  
+- `60` → **limite máximo**  
+- `61` → acima do limite
+
+Esses testes garantem que o sistema trate bem as “pontas”.
+
+---
+
+**Tabelas de Decisão**  
+Uma **tabela** que combina **condições** (regras) e mostra **qual ação** o sistema deve tomar em cada cenário.
+
+**Exemplo:**  
+Login com duas regras:  
+- Usuário digitou o nome certo  
+- Usuário digitou a senha certa  
+
+| Usuário certo | Senha certa | Resultado         |
+|----------------|--------------|------------------|
+| Não            | Não          | Erro de login    |
+| Sim            | Não          | Senha incorreta  |
+| Não            | Sim          | Usuário inválido |
+| Sim            | Sim          | Login bem-sucedido |
+
+---
+
+**Transição de Estados  
+Mostra como o sistema **muda de estado** conforme as ações do usuário ou eventos.  
+Usado quando o comportamento **depende do que aconteceu antes**.
+
+**Exemplo:**  
+Fluxo de um pedido em um app de delivery:
+
+| Estado atual     | Ação do usuário      | Próximo estado   |
+|------------------|----------------------|------------------|
+| Pedido criado    | Pagamento aprovado   | Pedido confirmado |
+| Pedido confirmado| Pedido enviado       | A caminho         |
+| A caminho        | Pedido entregue      | Concluído         |
+
+Você testa se o sistema **muda direitinho de um estado pro outro**.
+
+---
+
+**🧾 Comparativo Resumido**
+
+| Técnica                   | Quando usar                                      | O que testa                        | Exemplo prático                     |
+|----------------------------|--------------------------------------------------|------------------------------------|-------------------------------------|
+| **Particionamento de equivalência** | Quando há faixas de entrada válidas e inválidas | Grupos de dados com mesmo comportamento | Idade 18–60                        |
+| **Análise de valor limite** | Quando há limites definidos                      | Bordas de comportamento             | 17, 18, 60, 61                      |
+| **Tabelas de decisão**      | Quando há várias combinações de regras           | Lógica condicional e cenários       | Login com usuário/senha             |
+| **Transição de estados**    | Quando o sistema muda conforme ações anteriores  | Sequência e fluxo de estados        | Pedido → confirmado → entregue      |
+
+---
+
 
 ## 🧩 Boas Práticas
 
