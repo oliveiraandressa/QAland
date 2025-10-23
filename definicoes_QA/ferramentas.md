@@ -9,6 +9,9 @@ TODO: criar esse documento
 ### JUnit
 ### pytest
 
+## Ferramenta de teste de desempenho
+### JMeter
+
 ## Ferramentas de automação
 ### Cypress
 ### Robot Framework
