@@ -1,22 +1,25 @@
-# 🧪 QA Templates & Test Docs
+# 😍 Tudo para QAs  
+
+## 🧭 Guias
+
+- [Guia do Ciclo de Vida do Software](./guias/stlc.md)
 
 ---
 
-## 🧱 Modelos Disponíveis
+## 📋 Templates 
 
-### 📋 Planos de Teste
-- [Plano de Teste](Plano_de_teste.md)
+🧪 [Plano de Teste](./templates/Plano_de_teste.md)  
 
-### 🧩 Casos de Teste (BDD / Gherkin)
-- [Caso de Teste](Caso_de_teste.md)
+🧩 [Caso de Teste](./templates/Caso_de_teste.md)  
 
-### 📈 Relatórios
-em breve - 
+📈 [Relatório de Teste](./templates/relatorio.md)  
 
 ---
 
-## ⚙️ Como Usar
+## 🤓Links úteis
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/oliveiraandressa/vicsa.git
+👾 [Itens de Markdown](./links_uteis/markdown-cheatsheet.md)  
+
+📄 [Comandos git](./links_uteis/git-cheatsheet.md)  
+
+😍 [Emojis pra Doc](./links_uteis/icones.md)
