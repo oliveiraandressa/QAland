@@ -20,14 +20,11 @@ Este template serve como guia para QA preencher de acordo com o projeto.
 ---
 
 ## ⚙️ Ambiente de Execução
-
-| Item              | Descrição                  |
-|------------------|----------------------------|
-| Ambiente          | {Homologação / Produção}   |
-| URL / Endpoint    | {preencher}                |
-| Sistema Operacional | {Windows / Linux / MacOS} |
-| Navegador         | {Chrome / Firefox / Edge}  |
-| Ferramentas       | {Selenium / Cypress / Postman} |
+- **Sistema Operacional:** {Windows/Linux/macOS}  
+- **Navegador / Versão:** {Chrome, Firefox, Edge}  
+- **Base de Dados:** {MySQL, PostgreSQL, Outro}  
+- **API / Serviços:** {Versão ou endpoint}  
+- **Ferramentas de Teste:** {Cypress, Playwright, Jest}  
 
 ---
 
@@ -57,58 +54,8 @@ Este template serve como guia para QA preencher de acordo com o projeto.
 ---
 
 ## 📋 Casos de Teste
-
-### 💡 Cenário: {Título do Caso}
-**Pré-condições:** {preencher}  
-
-**Dado que** {preencher}  
-**Quando** {preencher}  
-**Então** {preencher}  
-
-**Passos:**
-1. {preencher}
-2. {preencher}
-
-**Dados de teste:** {preencher}  
-
-**Resultado esperado:** {preencher}  
-**Status:** ✅ Passou / ⛔ Falhou  
-**Observações:** {preencher}  
-
----
-
-## 🧾 Registro de Defeitos
-
-| ID      | Descrição                                     | Tipo        | Severidade | Status     | Responsável | Data       |
-| ------- | --------------------------------------------- | ----------- | ---------- | ---------- | ----------- | ---------- |
-| {BUG-001} | {preencher}                                 | {Funcional / UI / Integração} | {Baixa / Média / Alta / Crítica} | {Aberto / Em análise / Corrigido} | {preencher} | {preencher} |
-
----
-
-## 🔥 Severidade / Prioridade de Defeitos
-- [ ] Baixa  
-- [ ] Média  
-- [ ] Alta  
-- [ ] Crítica  
-
----
-
-## 🧮 Métricas de QA
-
-| Métrica                      | Valor |
-|-------------------------------|-------|
-| Total de Casos de Teste       | {preencher} |
-| Casos Executados              | {preencher} |
-| Casos Aprovados               | {preencher} |
-| Casos Reprovados              | {preencher} |
-| Taxa de Sucesso (%)           | {preencher} |
-| Defeitos Abertos              | {preencher} |
-| Defeitos Corrigidos           | {preencher} |
-
----
-
-## 📝 Considerações Finais
-{preencher com observações, recomendações ou bloqueios para release}
+- Use template individual para detalhar cada caso.
+[Template de Caso de Teste](./Caso_de_teste.md)
 
 ---
 

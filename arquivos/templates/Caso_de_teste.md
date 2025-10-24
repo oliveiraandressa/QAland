@@ -1,7 +1,8 @@
-## 📋 Casos de Teste
-
-
 ### 💡 Cenário: {Título do Caso}
+**ID:** {CT-001}  
+**Responsável:** {preencher}  
+**Data:** {preencher}  
+
 **Pré-condições:** {preencher}
 
 **Dado que** {preencher}  
