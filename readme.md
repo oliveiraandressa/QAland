@@ -28,13 +28,13 @@ Repositório com guias, templates e boas práticas para apoiar o processo de Gar
 
 💾 [Exemplo de Plano de Teste Preenchido](./arquivos/templates/Plano_de_teste_exemplo.md) 
 
-🧩 [Caso de Teste](./arquivos/templates/Caso_de_teste.md)  
+🧩 [Caso de Teste (usando BDD)](./arquivos/templates/Caso_de_teste.md)  
 
 🤖 [Caso de Teste Automatizado](./arquivos/templates/teste_automatizado.md)  
 
-🐞 [Bug](./arquivos/templates/bug.md)
+🐞 [Bug Report](./arquivos/templates/bug.md)
 
-📊 [Métricas](./arquivos/templates/metricas.md)
+📊 [Métricas de Teste](./arquivos/templates/metricas.md)
 
 📈 [Relatório de Teste](./arquivos/templates/relatorio.md)  
 
