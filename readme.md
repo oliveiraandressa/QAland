@@ -12,6 +12,10 @@
 
 ⚙️ [Guia de Automação de Testes](./arquivos/guias/automacao.md)
 
+🐞 [Guia de Registro e Ciclo de Bug](./arquivos/guias/ciclo_bug.md)
+
+🧠 [Guia de Revisão e Validação de Testes](./arquivos/guias/revisao.md) 
+
 📊 [Guia de Métricas e Relatórios de Teste](./arquivos/guias/metricas.md)
 
 ---
@@ -33,6 +37,8 @@
 📈 [Relatório de Teste](./arquivos/templates/relatorio.md)  
 
 📝 [Check list de Teste](./arquivos/templates/Checklist_teste.md)  
+
+[Relatório Final de Testes](./arquivos/templates/relatorio_final.md)
 
 ---
 
