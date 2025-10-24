@@ -4,9 +4,15 @@
 
 🔄 [Guia do Ciclo de Vida do Software](./arquivos/guias/stlc.md)  
 
+🔍 [Guia Teórico de Testes](./arquivos/guias/testes_a_z.md)
+
 ✨ [Guia de Técnicas de Design de Casos de Teste](./arquivos/guias/test_design.md)
 
-🔍 [Guia Teórico de Testes](./arquivos/guias/testes_a_z.md)
+🧭 [Guia de Estratégia de Testes](./arquivos/guias/estrategia_teste.md)  
+
+⚙️ [Guia de Automação de Testes](./arquivos/guias/automacao.md)
+
+📊 [Guia de Métricas e Relatórios de Teste](./arquivos/guias/metricas.md)
 
 ---
 
@@ -20,13 +26,13 @@
 
 🤖 [Caso de Teste Automatixado](./arquivos/templates/teste_automatizado.md)  
 
-📊 [Métricas](./arquivos/templates/metricas.md)
-
 🐞 [Bug](./arquivos/templates/bug.md)
 
-📝 [Check list de Teste](./arquivos/templates/Checklist_teste.md)
+📊 [Métricas](./arquivos/templates/metricas.md)
 
 📈 [Relatório de Teste](./arquivos/templates/relatorio.md)  
+
+📝 [Check list de Teste](./arquivos/templates/Checklist_teste.md)  
 
 ---
 
@@ -53,7 +59,7 @@
 
 ## 🤓Links úteis
 
-👾 [Itens de Markdown](./arquivos/links_uteis/markdown-cheatsheet.md)  
+👾 [Dicas de Markdown](./arquivos/links_uteis/markdown-cheatsheet.md)  
 
 📄 [Comandos git](./arquivos/links_uteis/git-cheatsheet.md)  
 
