@@ -2,16 +2,27 @@
 
 
 ### 💡 Cenário: Login de usuário 
-**Dado que** o usuario deseja fazer login **quando** insere suas informações corretamente e clica em login  **então** o sistema permite o acesso
+**Pré-condições:** Usuário cadastrado no sistema
+
+**Dado que** o usuário deseja fazer login  
+**Quando** insere email e senha válidos e clica em login  
+**Então** o sistema permite o acesso ao dashboard
 
 **Passos:**
-1. Insere email e senha válidos
-2. Clica em 'login'
+1. Abrir página de login
+2. Inserir email válido
+3. Inserir senha válida
+4. Clicar em 'Login'
+
+**Dados de teste:**  
+- Email: teste@dominio.com  
+- Senha: 123456
 
 **Resultado esperado:**  
-Redireciona para o dashboard
+- Redireciona para o dashboard
+- Mensagem de boas-vindas exibida
 
-**Status**  
-✅ Passou ou ⛔ Falhou 
+**Resultado obtido:** ✅ Passou / ⛔ Falhou  
+**Observações:** ...
 
 ---
