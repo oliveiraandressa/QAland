@@ -1,4 +1,6 @@
-# 😍 Tudo para QAs  
+# 😍 Central de Qualidade de Software (QA Toolkit)
+Repositório com guias, templates e boas práticas para apoiar o processo de Garantia de Qualidade de Software.
+
 
 ## 🧭 Guias
 
@@ -28,7 +30,7 @@
 
 🧩 [Caso de Teste](./arquivos/templates/Caso_de_teste.md)  
 
-🤖 [Caso de Teste Automatixado](./arquivos/templates/teste_automatizado.md)  
+🤖 [Caso de Teste Automatizado](./arquivos/templates/teste_automatizado.md)  
 
 🐞 [Bug](./arquivos/templates/bug.md)
 
@@ -38,7 +40,7 @@
 
 📝 [Check list de Teste](./arquivos/templates/Checklist_teste.md)  
 
-[Relatório Final de Testes](./arquivos/templates/relatorio_final.md)
+📘 [Relatório Final de Testes](./arquivos/templates/relatorio_final.md)
 
 ---
 
@@ -63,7 +65,7 @@
 
 ---
 
-## 🤓Links úteis
+## 📚 Links úteis
 
 👾 [Dicas de Markdown](./arquivos/links_uteis/markdown-cheatsheet.md)  
 
