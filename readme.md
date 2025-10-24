@@ -13,6 +13,8 @@
 ## 📋 Templates 
 
 🧪 [Plano de Teste](./arquivos/templates/Plano_de_teste.md)  
+  
+💾 [Exemplo de Plano de Teste Preenchido](./arquivos/templates/Plano_de_teste_exemplo.md) 
 
 🧩 [Caso de Teste](./arquivos/templates/Caso_de_teste.md)  
 
