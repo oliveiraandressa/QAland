@@ -1,6 +1,22 @@
-# Test Design
+# 🎯 Técnicas de Design de Casos de Teste 
+Cada técnica ajuda a escolher **quais dados, situações e combinações** devem ser testadas para cobrir o sistema de forma eficiente.  
 
+**✅ Resumo Rápido**
 
+| Técnica | Foco principal | Quando usar |
+|----------|----------------|-------------|
+| [Particionamento](#particionamento-de-equivalência) | Faixas de valores | Validação de campos |
+| [Valor Limite](#análise-de-valor-limite) | Bordas numéricas | Campos com limites |
+| [Tabela de decisão](#️tabelas-de-decisão) | Combinações de regras | Lógicas condicionais |
+| [Transição de estado ](#transição-de-estados) | Etapas e fluxos | Processos com estados |
+| [Caso de uso](#caso-de-uso-use-case-testing)  | Jornada do usuário | Testes ponta a ponta |
+| [Pairwise](#teste-combinatório-pairwise) | Combinações reduzidas | Muitos parâmetros |
+| [Exploratório](#teste-exploratório) | Descoberta livre | Sistemas novos |
+| [Baseado em requisitos](#teste-baseado-em-requisitos) | Especificações | Projetos documentados |
+| [Fluxo de dados](#teste-de-fluxo-de-dados) | Manipulação de dados | CRUDs e integrações |
+| [Baseado em erros](#teste-baseado-em-erros) | Falhas prováveis | Validação geral |
+
+---
 ## 🎯 Diferença entre Cenário e Caso de Teste
 
 | Termo | O que é | Nível de detalhe | Exemplo |
@@ -14,12 +30,7 @@
 
 ---
 
-
-## 🎯 Técnicas de Design de Casos de Teste 
-Cada técnica ajuda a escolher **quais dados, situações e combinações** devem ser testadas para cobrir o sistema de forma eficiente.  
-
-## 🧩 1. Particionamento de Equivalência
-**Definição:**  
+## Particionamento de Equivalência  
 Divide os dados possíveis em **grupos (partições)** que se comportam do mesmo jeito.  
 Você testa **um exemplo de cada grupo**, em vez de todos os valores possíveis.
 
@@ -33,8 +44,7 @@ Campo “idade” aceita valores de **18 a 60 anos**.
 
 ---
 
-## 📏 2. Análise de Valor Limite
-**Definição:**  
+## Análise de Valor Limite
 Foca nos **limites exatos** onde o comportamento muda — é comum encontrar falhas “nas bordas”.
 
 **Exemplo prático:**  
@@ -48,8 +58,7 @@ Campo “idade” aceita de **18 a 60 anos**.
 
 ---
 
-## ⚙️ 3. Tabelas de Decisão
-**Definição:**  
+## Tabelas de Decisão
 Organiza **regras e ações** em uma tabela para visualizar todas as combinações possíveis.
 
 **Exemplo prático:**  
@@ -64,8 +73,7 @@ Organiza **regras e ações** em uma tabela para visualizar todas as combinaçõ
 
 ---
 
-## 🔄 4. Transição de Estados
-**Definição:**  
+## Transição de Estados
 Modela o comportamento de um sistema que **muda de estado** com base em ações ou eventos.
 
 **Exemplo prático:**  
@@ -79,8 +87,7 @@ Modela o comportamento de um sistema que **muda de estado** com base em ações 
 
 ---
 
-## 🧠 5. Caso de Uso (Use Case Testing)
-**Definição:**  
+## Caso de Uso (Use Case Testing)
 Cria testes baseados em **fluxos de uso reais** do usuário.
 
 **Exemplo prático:**  
@@ -95,8 +102,7 @@ Cenário: “Usuário faz uma compra com sucesso.”
 
 ---
 
-## 🔸 6. Teste Combinatório (Pairwise)
-**Definição:**  
+## Teste Combinatório (Pairwise)
 Usa combinações representativas de variáveis, evitando testar **todas as possíveis**.
 
 **Exemplo prático:**  
@@ -111,8 +117,7 @@ Em vez de testar 3×3×2 = 18 combinações, escolhem-se **as mais relevantes** 
 
 ---
 
-## 🔍 7. Teste Exploratório
-**Definição:**  
+## Teste Exploratório
 O testador **explora o sistema livremente**, observando o comportamento e criando casos de teste em tempo real.
 
 **Exemplo prático:**  
@@ -122,8 +127,7 @@ Experimentar inserir dados incorretos, realizar ações fora de ordem, tentar fl
 
 ---
 
-## 🧾 8. Teste Baseado em Requisitos
-**Definição:**  
+## Teste Baseado em Requisitos
 Cada requisito documentado se transforma em um ou mais casos de teste.
 
 **Exemplo prático:**  
@@ -136,8 +140,7 @@ Casos de teste:
 
 ---
 
-## 🧱 9. Teste de Fluxo de Dados
-**Definição:**  
+## Teste de Fluxo de Dados
 Verifica **como os dados são criados, modificados e eliminados** ao longo do sistema.
 
 **Exemplo prático:**  
@@ -149,8 +152,7 @@ Testar se:
 
 ---
 
-## 🧩 10. Teste Baseado em Erros
-**Definição:**  
+## Teste Baseado em Erros
 Cria casos de teste inspirados em **erros comuns** que costumam ocorrer.
 
 **Exemplo prático:**  
@@ -162,41 +164,3 @@ Cria casos de teste inspirados em **erros comuns** que costumam ocorrer.
 
 ---
 
-# ✅ Resumo Rápido
-
-| Técnica | Foco principal | Quando usar |
-|----------|----------------|-------------|
-| Particionamento | Faixas de valores | Validação de campos |
-| Valor Limite | Bordas numéricas | Campos com limites |
-| Tabela de decisão | Combinações de regras | Lógicas condicionais |
-| Transição de estado | Etapas e fluxos | Processos com estados |
-| Caso de uso | Jornada do usuário | Testes ponta a ponta |
-| Pairwise | Combinações reduzidas | Muitos parâmetros |
-| Exploratório | Descoberta livre | Sistemas novos |
-| Baseado em requisitos | Especificações | Projetos documentados |
-| Fluxo de dados | Manipulação de dados | CRUDs e integrações |
-| Baseado em erros | Falhas prováveis | Validação geral |
-
----
-
-
-# 🧩 Boas Práticas
-
-### 🧷 Gerais
-🗂️ Usar nomenclaturas e documentações padronizadas.  
-💾 Versionar todos os documentos no Git.  
-💬 Manter comunicação constante com o time de desenvolvimento.
-
-### 🧠 Planejamento
-🧩 Garantir que os requisitos estão claros e completos.  
-📝 Criar cenários e casos de teste detalhados (simule erros e exceções).  
-⏱️ Priorizar cenários conforme o tempo e impacto.
-
-### 🧪 Execução
-📸 Registrar resultados e evidências.
-
-### 🔁 Pós-Teste
-🐞 Acompanhar bugs até a correção.  
-📘 Documentar lições aprendidas para os próximos ciclos.
-
----

@@ -1,11 +1,9 @@
-TODO: criar esse documento
-
+# Linguagens, Ferramentas e Requistos
 ## Linguagens de programação
 ### JavaScript
 
 ## Ferramenta de teste de unidade
 ### Jest 
-
 ### JUnit
 ### pytest
 
@@ -18,17 +16,14 @@ TODO: criar esse documento
 ### Playwright
 ### Selenium
 ### NightWatch
-
+### Appium
 
 ## Ferramentas de teste de API
 ### Postman
 
-
 ## Ferramentas de documentação e acompanhamento de bug
 ### Jira
 ### Confluence
-
-
 
 ## Outras ferramentas e requisitos
 

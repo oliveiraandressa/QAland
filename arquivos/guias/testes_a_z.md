@@ -1,3 +1,4 @@
+# Guia Teórico de Testes 
 
 ## 🧱 Níveis de Teste 
 Em qual etapa do ciclo do software ocorrerá o teste?  
@@ -29,7 +30,7 @@ A escolha depende do que está disponível:
 
 ---
 
-## 🧩 Tipos de Teste – O que está sendo avaliado? Funções ou desesmpenho?
+## 🧩 Tipos de Teste
 
 Os testes se dividem em **Funcionais** e **Não Funcionais**.  
 
