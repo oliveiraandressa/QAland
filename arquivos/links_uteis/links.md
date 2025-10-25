@@ -2,7 +2,6 @@
 layout: content
 title: ''
 hide_title: true
-permalink: /
 ---
 
 
