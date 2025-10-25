@@ -22,14 +22,14 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Criar e aprovar o **Plano de Teste**.
 
 ### ✅ Checklist:
-- [ ] Requisitos analisados e compreendidos  
-- [ ] Escopo definido (in/out)  
-- [ ] Estratégia de teste documentada  
-- [ ] Riscos e dependências identificados  
-- [ ] Papéis e responsabilidades atribuídos  
-- [ ] Ferramentas selecionadas  
-- [ ] Cronograma e estimativas definidos  
-- [ ] Plano de teste revisado e aprovado  
+[ ]  Requisitos analisados e compreendidos  
+[ ]  Escopo definido (in/out)  
+[ ]  Estratégia de teste documentada  
+[ ]  Riscos e dependências identificados  
+[ ]  Papéis e responsabilidades atribuídos  
+[ ]  Ferramentas selecionadas  
+[ ]  Cronograma e estimativas definidos  
+[ ]  Plano de teste revisado e aprovado  
 
 ---
 
@@ -45,12 +45,12 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Iniciar matriz de rastreabilidade entre requisitos e condições de teste.
 
 ### ✅ Checklist:
-- [ ] Requisitos revisados e validados  
-- [ ] Condições de teste identificadas  
-- [ ] Critérios de aceitação revisados  
-- [ ] Tipos de teste definidos  
-- [ ] Requisitos ambíguos reportados  
-- [ ] Itens de rastreabilidade criados  
+[ ]  Requisitos revisados e validados  
+[ ]  Condições de teste identificadas  
+[ ]  Critérios de aceitação revisados  
+[ ]  Tipos de teste definidos  
+[ ]  Requisitos ambíguos reportados  
+[ ]  Itens de rastreabilidade criados  
 
 ---
 
@@ -67,12 +67,12 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Planejar automação de testes (quando aplicável).
 
 ### ✅ Checklist:
-- [ ] Casos de teste criados e revisados  
-- [ ] Cobertura de requisitos verificada  
-- [ ] Massa de dados preparada e documentada  
-- [ ] Matriz de rastreabilidade atualizada  
-- [ ] Casos priorizados (crítico, médio, baixo)  
-- [ ] Scripts automatizados revisados (se houver)  
+[ ]  Casos de teste criados e revisados  
+[ ]  Cobertura de requisitos verificada  
+[ ]  Massa de dados preparada e documentada  
+[ ]  Matriz de rastreabilidade atualizada  
+[ ]  Casos priorizados (crítico, médio, baixo)  
+[ ]  Scripts automatizados revisados (se houver)  
 
 ---
 
@@ -88,12 +88,12 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Executar **Smoke Test** para validar estabilidade inicial.
 
 ### ✅ Checklist:
-- [ ] Ambiente configurado e acessível  
-- [ ] Build correto instalado  
-- [ ] Banco de dados e APIs configurados  
-- [ ] Ferramentas integradas (Jira, Jenkins, etc)  
-- [ ] Smoke test executado com sucesso  
-- [ ] Acesso liberado para testadores  
+[ ]  Ambiente configurado e acessível  
+[ ]  Build correto instalado  
+[ ]  Banco de dados e APIs configurados  
+[ ]  Ferramentas integradas (Jira, Jenkins, etc)  
+[ ]  Smoke test executado com sucesso  
+[ ]  Acesso liberado para testadores  
 
 ---
 
@@ -111,12 +111,12 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Atualizar status e métricas no sistema de testes.
 
 ### ✅ Checklist:
-- [ ] Casos de teste executados  
-- [ ] Evidências coletadas e anexadas  
-- [ ] Defeitos documentados e priorizados  
-- [ ] Retestes realizados  
-- [ ] Testes de regressão executados  
-- [ ] Status atualizado no sistema  
+[ ]  Casos de teste executados  
+[ ]  Evidências coletadas e anexadas  
+[ ]  Defeitos documentados e priorizados  
+[ ]  Retestes realizados  
+[ ]  Testes de regressão executados  
+[ ]  Status atualizado no sistema  
 
 ---
 
@@ -132,13 +132,13 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Arquivar evidências e documentos.  
 
 ### ✅ Checklist:
-- [ ] Todos os testes planejados executados  
-- [ ] Cobertura total dos requisitos validada  
-- [ ] Defeitos críticos resolvidos ou aceitos  
-- [ ] Relatório final entregue  
-- [ ] Métricas coletadas e analisadas  
-- [ ] Reunião de lições aprendidas realizada  
-- [ ] Artefatos arquivados  
+[ ]  Todos os testes planejados executados  
+[ ]  Cobertura total dos requisitos validada  
+[ ]  Defeitos críticos resolvidos ou aceitos  
+[ ]  Relatório final entregue  
+[ ]  Métricas coletadas e analisadas  
+[ ]  Reunião de lições aprendidas realizada  
+[ ]  Artefatos arquivados  
 
 ---
 

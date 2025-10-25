@@ -54,12 +54,12 @@ Define quando os testes podem ser **considerados concluídos**:
 ---
 
 ## 🧱 Riscos e Mitigações
-| Risco | Impacto | Estratégia de Mitigação |
-|-------|----------|--------------------------|
-| Prazos curtos | Alto | Priorização baseada em risco e smoke tests |
-| Mudanças constantes no código | Médio | Automação de regressão e testes parciais |
-| Falta de documentação | Médio | Abordagem exploratória e entrevistas com devs |
-| Dependência de APIs externas | Alto | Mock de serviços e testes de fallback |
+| Risco                     | Impacto | Estratégia de Mitigação                               |
+|---------------------------|---------|------------------------------------------------------|
+| Prazos curtos             | Alto    | Priorização baseada em risco e smoke tests           |
+| Mudanças constantes no código | Médio  | Automação de regressão e testes parciais            |
+| Falta de documentação     | Médio   | Abordagem exploratória e entrevistas com devs       |
+| Dependência de APIs externas | Alto  | Mock de serviços e testes de fallback               |
 
 ---
 
