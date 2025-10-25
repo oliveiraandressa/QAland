@@ -1,0 +1,6 @@
+defaults:
+  - scope:
+      path: ""        # aplica a todo o site
+      type: "pages"
+    values:
+      layout: "default"
