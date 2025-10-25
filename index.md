@@ -7,7 +7,6 @@ permalink: /
 
 <!--
  TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
- TODO: adicionar um footer
  TODO: organizar icones
  -->
 # 😍 Central de Qualidade de Software
