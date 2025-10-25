@@ -51,6 +51,7 @@ Estrutura recomendada para equilíbrio entre cobertura e custo de manutenção:
 ---
 
 ## 🧰 Ferramentas Recomendadas
+
 | Tipo | Opções Sugeridas | Observações |
 |------|------------------|-------------|
 | **Frontend (UI)** | Cypress, Playwright, Selenium | Testes E2E e smoke tests |

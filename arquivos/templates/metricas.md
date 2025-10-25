@@ -9,6 +9,7 @@ hide_title: true
   </svg>Voltar](../../readme.md)  
 
 ## 📊 Métricas de QA
+
 | Métrica                      | Valor |
 |-------------------------------|-------|
 | Total de Casos de Teste       | {preencher} |

@@ -37,6 +37,7 @@ Descrever de forma resumida os testes realizados, seus resultados, falhas encont
 ---
 
 ## 🧪 Resumo dos Testes
+
 | Tipo de Teste | Executados | Passaram | Falharam | Bloqueados |
 |----------------|-------------|-----------|-----------|-------------|
 | Funcionais |  |  |  |  |
@@ -48,6 +49,7 @@ Descrever de forma resumida os testes realizados, seus resultados, falhas encont
 ---
 
 ## 🐞 Resumo de Defeitos
+
 | Severidade | Abertos | Corrigidos | Pendentes |
 |-------------|----------|-------------|------------|
 | Alta |  |  |  |

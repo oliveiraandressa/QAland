@@ -30,6 +30,7 @@ git merge nome          # Mescla branch atual com outra
 ```
 
 ## 🔹 Commits Convencionais (Conventional Commits)
+
 | Tipo | Uso |
 |------|-----|
 | feat | Nova funcionalidade |
