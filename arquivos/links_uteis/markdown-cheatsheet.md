@@ -1,6 +1,8 @@
+[⬅Voltar](../../readme.md)  
+
 # 📝 Markdown Cheat Sheet
 
-Guia rápido dos principais recursos e formatações possíveis em arquivos `.md`.
+Guia rápido dos principais recursos e formatações possíveis em arquivos `.md`.   
 
 ---
 
@@ -152,3 +154,5 @@ Segunda linha
 ✅ Ideal para documentação técnica  
 🧠 Leve, rápido e compatível com GitHub, Notion, VSCode, etc.  
 📦 Extensão comum: `.md`
+
+[⬅Voltar](../../readme.md)

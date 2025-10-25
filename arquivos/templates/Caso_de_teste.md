@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 ### 💡 Cenário: {Título do Caso}
 **ID:** {CT-001}  
 **Responsável:** {preencher}  

@@ -1,12 +1,12 @@
 # 😍 Central de Qualidade de Software (QA Toolkit)
-Repositório com guias, templates e boas práticas para apoiar o processo de Garantia de Qualidade de Software.
+Tudo que você precisa para aprender e aplicar QA de forma prática.
 
 
 ## 🧭 Guias
 
 🔄 [Guia do Ciclo de Vida do Software](./arquivos/guias/stlc.md)  
 
-🔍 [Guia de Testes](./arquivos/guias/testes_a_z.md)
+🔍 [Guia de Testes (Níveis, técnicas e tipos)](./arquivos/guias/testes_a_z.md)
 
 ✨ [Guia de Técnicas de Design de Casos de Teste](./arquivos/guias/test_design.md)
 

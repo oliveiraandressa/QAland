@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🤖 Template de Plano de Teste
 
 ## 📘 Informações Gerais

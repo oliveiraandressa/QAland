@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # Linguagens, Ferramentas e Requistos
 ## Linguagens de programação
 ### JavaScript

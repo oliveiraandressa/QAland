@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧭 Guia de Estratégia de Teste  
 
 Este guia define **como planejar e direcionar os testes** de forma eficiente, garantindo que o esforço de QA traga o máximo de valor ao projeto.

@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # ⚙️ Guia de Automação de Testes  
 
 Este guia define **as práticas, padrões e critérios** para implementar e manter testes automatizados de forma eficiente e sustentável.

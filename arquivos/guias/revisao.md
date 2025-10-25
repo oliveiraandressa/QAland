@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧠 Guia de Revisão e Validação de Testes  
 
 Este guia estabelece **como revisar, validar e aprovar artefatos de teste** (planos, casos, execuções e resultados), garantindo qualidade e consistência em todo o processo de QA.

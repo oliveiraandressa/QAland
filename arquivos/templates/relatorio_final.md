@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧾 Relatório Final de Testes (Test Summary Report)
 
 **Projeto:** [Nome do Projeto]  

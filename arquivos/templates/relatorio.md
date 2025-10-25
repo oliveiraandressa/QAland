@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧪 Template de Relatório de Teste
 
 **Projeto:** {preencher}  

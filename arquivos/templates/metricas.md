@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 ## 📊 Métricas de QA
 | Métrica                      | Valor |
 |-------------------------------|-------|

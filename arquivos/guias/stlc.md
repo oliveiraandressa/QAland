@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧪 STLC - Guia Completo com Checklists
 
 O **STLC (Software Testing Life Cycle)** é o conjunto de fases que estruturam o processo de teste de software, desde o planejamento até o encerramento.  

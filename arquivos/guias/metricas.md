@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 📊 Guia de Métricas e Relatórios de Teste  
 
 Este guia define **como medir, acompanhar e comunicar a qualidade do software** através de métricas e relatórios de QA.

@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # **🧭 Ciclo de Vida do Teste de Software (STLC)**
 As **fases** do **STLC** são as etapas que organizam o processo de teste do início ao fim.
 

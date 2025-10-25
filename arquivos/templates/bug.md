@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 ### 🐞 Bug Report
 **ID:** {BUG-001}  
 **Caso de Teste:** {CT-001}  

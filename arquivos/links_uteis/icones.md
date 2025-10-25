@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🧩 ÍCONES ÚTEIS PRA DOC QA / DEV
 
 ## 🧭 Fases do STLC
@@ -104,3 +106,5 @@
 - `⚠️ Atenção:` → alerta visual  
 
 ---
+
+[⬅Voltar](../../readme.md)

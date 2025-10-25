@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🐞 Guia de Registro e Ciclo de Bug  
 
 Este guia define **como identificar, registrar, acompanhar e encerrar defeitos (bugs)** de forma padronizada e eficiente.

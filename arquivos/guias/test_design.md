@@ -1,3 +1,5 @@
+[⬅Voltar](../../readme.md)  
+
 # 🎯 Técnicas de Design de Casos de Teste 
 Cada técnica ajuda a escolher **quais dados, situações e combinações** devem ser testadas para cobrir o sistema de forma eficiente.  
 
