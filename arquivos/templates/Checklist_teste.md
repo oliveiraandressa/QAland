@@ -1,3 +1,9 @@
+---
+layout: default
+title: ''
+hide_title: true
+---
+
 [⬅Voltar](../../readme.md)  
 
 # 📝 Checklist de Teste - {Nome do Projeto}

@@ -1,3 +1,9 @@
+---
+layout: default
+title: ''
+hide_title: true
+---
+
 [⬅Voltar](../../readme.md)  
 
 # 📊 Guia de Métricas e Relatórios de Teste  

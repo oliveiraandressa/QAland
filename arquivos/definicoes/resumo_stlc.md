@@ -1,3 +1,9 @@
+---
+layout: default
+title: ''
+hide_title: true
+---
+
 [⬅Voltar](../../readme.md)  
 
 # **🧭 Ciclo de Vida do Teste de Software (STLC)**
