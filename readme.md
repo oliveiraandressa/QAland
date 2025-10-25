@@ -2,6 +2,7 @@
 layout: default
 title: ''
 hide_title: true
+permalink: /
 ---
 
 # 😍 Central de Qualidade de Software (QA Toolkit)
