@@ -1,6 +1,7 @@
 ---
 layout: default
-title: null
+title: ''
+hide_title: true
 ---
 
 # 😍 Central de Qualidade de Software (QA Toolkit)
