@@ -95,3 +95,5 @@ Após cada execução automática, gere relatórios com:
 - Priorize **clareza e estabilidade** sobre quantidade de testes.  
 
 ---
+
+[⬅Voltar](../../readme.md)  

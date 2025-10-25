@@ -13,3 +13,5 @@
 **Ambiente:** {Sistema / Navegador / Versão}  
 **Data:** {preencher}  
 **Anexos / Prints:** {link ou caminho do arquivo}  
+
+

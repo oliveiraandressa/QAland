@@ -83,3 +83,5 @@ Confirma se o comportamento do sistema após correções é o esperado e se o pr
 4. Revisor QA confirma evidências e resultados.  
 5. QA Líder ou PO aprova a liberação.  
 
+
+[⬅Voltar](../../readme.md)  

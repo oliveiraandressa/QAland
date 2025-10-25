@@ -16,3 +16,5 @@ As **fases** do **STLC** são as etapas que organizam o processo de teste do in�
 > 🔁 O STLC ocorre dentro do SDLC (Ciclo de Vida do Software) e se repete a cada nova entrega ou versão.
 
 ---
+
+[⬅Voltar](../../readme.md)  

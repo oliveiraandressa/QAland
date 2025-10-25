@@ -100,3 +100,5 @@ Verifica se o sistema faz o que foi planejado.
 > 🔗 As classificações se combinam — um teste de regressão (tipo) pode ser automatizado (execução) e baseado em caixa preta (técnica).
 
 ---
+
+[⬅Voltar](../../readme.md)  
