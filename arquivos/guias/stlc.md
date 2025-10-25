@@ -1,3 +1,8 @@
+---
+layout: default
+title: null
+---
+
 [⬅Voltar](../../readme.md)  
 
 # 🧪 STLC - Guia Completo com Checklists

@@ -2,6 +2,7 @@
 layout: default
 title: null
 ---
+
 # 😍 Central de Qualidade de Software (QA Toolkit)
 Tudo que você precisa para aprender e aplicar QA de forma prática.
 
