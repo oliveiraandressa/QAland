@@ -19,3 +19,37 @@ li.task-list-item {
     list-style: none;
     margin-right: 10px;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.task-list-item-checkbox{
+    margin-right: 5px;
+}
+.task-list{
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: var(--bs-link-hover-color);
+    text-decoration: none;
+}
