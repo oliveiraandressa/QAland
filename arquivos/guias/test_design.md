@@ -24,7 +24,7 @@ Cada técnica ajuda a escolher **quais dados, situações e combinações** deve
 | Termo | O que é | Nível de detalhe | Exemplo |
 |-------|----------|------------------|----------|
 | **Cenário de Teste** | Uma **situação geral** que será verificada. | Mais **alto nível**, descreve o **contexto**. | “Verificar se o usuário consegue fazer login com credenciais válidas.” |
-| **Caso de Teste** | O **passo a passo detalhado** para validar um cenário. | Mais **específico**, com **dados, ações e resultados esperados**. | 1️⃣ Abrir página de login → 2️⃣ Inserir `email@teste.com` e `senha123` → 3️⃣ Clicar em “Entrar” → ✅ Esperado: redirecionar para a página inicial. |
+| **Caso de Teste** | O **passo a passo detalhado** para validar um cenário. | Mais **específico**, com **dados, ações e resultados esperados**. | 1️⃣ Abrir página de login <br> 2️⃣ Inserir `email@teste.com` e `senha123` <br> 3️⃣ Clicar em “Entrar” <br> ✅ Esperado: redirecionar para a página inicial. |
 
 💡 **Resumindo:**  
 - **Cenário = o que testar**  
@@ -64,6 +64,7 @@ Campo “idade” aceita de **18 a 60 anos**.
 Organiza **regras e ações** em uma tabela para visualizar todas as combinações possíveis.
 
 **Exemplo prático:**  
+
 | Usuário correto | Senha correta | Resultado esperado |
 |------------------|----------------|--------------------|
 | Não              | Não            | Erro de login      |
@@ -79,6 +80,7 @@ Organiza **regras e ações** em uma tabela para visualizar todas as combinaçõ
 Modela o comportamento de um sistema que **muda de estado** com base em ações ou eventos.
 
 **Exemplo prático:**  
+
 | Estado atual     | Ação            | Próximo estado |
 |------------------|------------------|----------------|
 | Pedido criado    | Pagamento aprovado | Pedido confirmado |
