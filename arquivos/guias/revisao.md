@@ -4,9 +4,6 @@ title: ''
 hide_title: true
 ---
 
-[  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>Voltar](../../readme.md)  
 
 # 🧠 Guia de Revisão e Validação de Testes  
 
@@ -92,6 +89,3 @@ Confirma se o comportamento do sistema após correções é o esperado e se o pr
 5. QA Líder ou PO aprova a liberação.  
 
 
-[  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>Voltar](../../readme.md)  
