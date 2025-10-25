@@ -4,7 +4,7 @@ title: ''
 hide_title: true
 ---
 
-
+```md
 # 🧪 Template de Relatório de Teste
 
 **Projeto:** {preencher}  
@@ -112,3 +112,4 @@ Resumo do resultado geral do teste, áreas críticas, recomendações e status p
 - [ ] Métricas atualizadas  
 - [ ] Observações adicionadas  
 - [ ] Conclusão finalizada
+```

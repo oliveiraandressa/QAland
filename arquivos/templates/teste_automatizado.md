@@ -4,8 +4,9 @@ title: ''
 hide_title: true
 ---
 
-
 ### 🤖 Teste Automatizado
+
+```md
 **ID:** {AUT-001}  
 **Cenário:** {Título do teste}  
 **Ferramenta / Linguagem:** {Cypress, Playwright, Selenium, Jest}  
@@ -16,3 +17,4 @@ hide_title: true
 **Status:** [✅ Passou / ⛔ Falhou]  
 **Responsável:** {preencher}  
 **Data:** {preencher}  
+```

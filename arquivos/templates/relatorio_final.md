@@ -4,7 +4,7 @@ title: ''
 hide_title: true
 ---
 
-
+```md
 # 🧾 Relatório Final de Testes (Test Summary Report)
 
 **Projeto:** [Nome do Projeto]  
@@ -92,3 +92,4 @@ Resumo final da execução dos testes e avaliação da estabilidade do sistema.
 ✅ Aprovado para Produção  
 ⚠️ Aguardando Correções  
 ❌ Reprovado nos Testes  
+```

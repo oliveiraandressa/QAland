@@ -6,6 +6,7 @@ hide_title: true
 
 # 📝 Checklist de Teste - {Nome do Projeto}
 
+```md
 ## 🔹 Funcionalidades Principais
 - [ ] Login de usuário
 - [ ] Logout
@@ -46,3 +47,4 @@ hide_title: true
 - [ ] Funcionalidades críticas após atualização
 - [ ] Correção de bugs anteriores
 - [ ] Teste de fluxos comuns de usuário
+```

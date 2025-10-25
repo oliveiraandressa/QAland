@@ -7,6 +7,8 @@ hide_title: true
 
 
 ### 🐞 Bug Report
+
+```md
 **ID:** {BUG-001}  
 **Caso de Teste:** {CT-001}  
 **Título:** {Breve descrição do bug}  
@@ -19,5 +21,4 @@ hide_title: true
 **Ambiente:** {Sistema / Navegador / Versão}  
 **Data:** {preencher}  
 **Anexos / Prints:** {link ou caminho do arquivo}  
-
-
+```

@@ -5,6 +5,8 @@ hide_title: true
 ---
 
 
+```md
+
 ### 💡 Cenário: {Título do Caso}
 **ID:** {CT-001}  
 **Responsável:** {preencher}  
@@ -26,4 +28,5 @@ hide_title: true
 **Status:** ✅ Passou / ⛔ Falhou  
 **Observações:** ...
 
+```
 ---
