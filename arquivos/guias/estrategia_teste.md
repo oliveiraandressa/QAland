@@ -4,7 +4,10 @@ title: ''
 hide_title: true
 ---
 
-[⬅Voltar](../../readme.md)  
+[<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  Voltar](../../readme.md)  
 
 # 🧭 Guia de Estratégia de Teste  
 
@@ -60,6 +63,7 @@ Define quando os testes podem ser **considerados concluídos**:
 ---
 
 ## 🧱 Riscos e Mitigações
+
 | Risco                     | Impacto | Estratégia de Mitigação                               |
 |---------------------------|---------|------------------------------------------------------|
 | Prazos curtos             | Alto    | Priorização baseada em risco e smoke tests           |
@@ -93,4 +97,6 @@ Os resultados devem ser consolidados em relatórios periódicos contendo:
 
 ---
 
-[⬅Voltar](../../readme.md)  
+[  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>Voltar](../../readme.md)  
