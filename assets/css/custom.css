@@ -5,29 +5,19 @@
     --bg: #fff;
     --link: #222;
     --link-hover: #041738;
-    --bs-heading-color: #111827;
+    --bs-heading-color: #06163a;
     --code-bg: #f5f5f5;
     --pre-bg: #0d1117;
     --pre-color: #c9d1d9;
     --border: #ddd;
 }
 
-/* Base / layout */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-}
 
 body {
     font-family: Inter, system-ui, "Segoe UI", Arial, sans-serif;
     color: var(--text);
     background: var(--bg);
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -182,6 +172,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* custom */
+
+h1{
+    margin-top: 80px;
+}
+
+hr {
+    margin: 2rem 0 3rem 0;
+}
 
 li.task-list-item {
     list-style: none;
