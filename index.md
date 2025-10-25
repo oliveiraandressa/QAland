@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: content
 title: ''
 hide_title: true
 permalink: /
@@ -9,7 +9,6 @@ permalink: /
  TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
  TODO: adicionar um footer
  TODO: organizar icones
- TODO: Adicionar um menu 
  -->
 # 😍 Central de Qualidade de Software
 Tudo que você precisa para aprender e aplicar QA de forma prática.
