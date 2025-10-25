@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Skip link para acessibilidade -->
+  <a class="visually-hidden-focusable" href="#main-content">Ir para o conteúdo</a>
+
+  <!-- Navbar com dropdowns baseados no README -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" class="me-2" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M7 12h10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        {{ site.title | default: "Vicsa" }}
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#vicsaNavbar" aria-controls="vicsaNavbar" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="vicsaNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <!-- Guias -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Guias
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="guiasDropdown">
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/stlc.md' | relative_url }}">Guia do Ciclo de Vida do Software</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/testes_a_z.md' | relative_url }}">Guia de Testes (Níveis, técnicas e tipos)</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/test_design.md' | relative_url }}">Técnicas de Design de Casos de Teste</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/estrategia_teste.md' | relative_url }}">Guia de Estratégia de Testes</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/automacao.md' | relative_url }}">Guia de Automação de Testes</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/ciclo_bug.md' | relative_url }}">Guia de Registro e Ciclo de Bug</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/revisao.md' | relative_url }}">Guia de Revisão e Validação de Testes</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/guias/metricas.md' | relative_url }}">Guia de Métricas e Relatórios de Teste</a></li>
+            </ul>
+          </li>
+
+          <!-- Templates -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="templatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Templates
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="templatesDropdown">
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Plano_de_teste.md' | relative_url }}">Plano de Teste</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Plano_de_teste_exemplo.md' | relative_url }}">Exemplo Plano Preenchido</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Caso_de_teste.md' | relative_url }}">Caso de Teste (BDD)</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/teste_automatizado.md' | relative_url }}">Caso de Teste Automatizado</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/bug.md' | relative_url }}">Bug Report</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/metricas.md' | relative_url }}">Métricas de Teste</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio.md' | relative_url }}">Relatório de Teste</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Checklist_teste.md' | relative_url }}">Check list de Teste</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio_final.md' | relative_url }}">Relatório Final de Testes</a></li>
+            </ul>
+          </li>
+
+          <!-- Boas práticas (aponta para README/âncoras) -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="praticasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Boas práticas
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="praticasDropdown">
+              <li><a class="dropdown-item" href="{{ '/' | relative_url }}#boas-práticas">Geral</a></li>
+              <li><a class="dropdown-item" href="{{ '/' | relative_url }}#planejamento">Planejamento</a></li>
+              <li><a class="dropdown-item" href="{{ '/' | relative_url }}#execucao">Execução</a></li>
+              <li><a class="dropdown-item" href="{{ '/' | relative_url }}#pos-teste">Pós-teste</a></li>
+            </ul>
+          </li>
+
+          <!-- Links úteis -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Links úteis
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="linksDropdown">
+              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/markdown-cheatsheet.md' | relative_url }}">Dicas de Markdown</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/git-cheatsheet.md' | relative_url }}">Comandos git</a></li>
+              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/icones.md' | relative_url }}">Emojis pra Doc</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main container -->
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-12">
+        <main id="main-content" class="content markdown-body" role="main" aria-live="polite">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <!-- Aprimora tabelas Markdown: wrapper responsivo + classes Bootstrap -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.markdown-body table').forEach(function (table) {
+        if (!table.classList.contains('table')) {
+          table.classList.add('table', 'table-striped', 'table-bordered', 'align-middle');
+        }
+        var parent = table.parentElement;
+        if (!parent.classList.contains('table-responsive')) {
+          var wrapper = document.createElement('div');
+          wrapper.className = 'table-responsive';
+          parent.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

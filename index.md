@@ -1,5 +1,13 @@
+---
+layout: default
+title: ''
+hide_title: true
+permalink: /
+---
+
 <!--
- TODO: deixar os templates baixaveis e com uma versão de exemplo 
+ TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
+ TODO: adicionar um footer
  TODO: organizar icones
  TODO: Adicionar um menu 
  -->
