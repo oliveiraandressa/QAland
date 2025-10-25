@@ -6,7 +6,7 @@ Repositório com guias, templates e boas práticas para apoiar o processo de Gar
 
 🔄 [Guia do Ciclo de Vida do Software](./arquivos/guias/stlc.md)  
 
-🔍 [Guia Teórico de Testes](./arquivos/guias/testes_a_z.md)
+🔍 [Guia de Testes](./arquivos/guias/testes_a_z.md)
 
 ✨ [Guia de Técnicas de Design de Casos de Teste](./arquivos/guias/test_design.md)
 

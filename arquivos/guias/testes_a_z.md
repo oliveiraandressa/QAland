@@ -1,4 +1,4 @@
-# Guia Teórico de Testes 
+# Guia de Testes 
 
 ## 🧱 Níveis de Teste 
 Em qual etapa do ciclo do software ocorrerá o teste?  
