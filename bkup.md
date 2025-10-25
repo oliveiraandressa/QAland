@@ -7,7 +7,6 @@ permalink: /
 
 <!--
  TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
- TODO: organizar icones
  -->
 # 😍 Central de Qualidade de Software
 Tudo que você precisa para aprender e aplicar QA de forma prática.
