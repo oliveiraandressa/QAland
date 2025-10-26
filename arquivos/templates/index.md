@@ -10,21 +10,21 @@ hide_title: true
 
 ## 📋 Templates 
 
-🧪 [Plano de Teste](./arquivos/templates/Plano_de_teste.md)  
+🧪 [Plano de Teste](./Plano_de_teste.md)  
 
 
-🧩 [Caso de Teste (usando BDD)](./arquivos/templates/Caso_de_teste.md)  
+🧩 [Caso de Teste (usando BDD)](./Caso_de_teste.md)  
 
-🤖 [Caso de Teste Automatizado](./arquivos/templates/teste_automatizado.md)  
+🤖 [Caso de Teste Automatizado](./teste_automatizado.md)  
 
-🐞 [Bug Report](./arquivos/templates/bug.md)
+🐞 [Bug Report](./bug.md)
 
-📊 [Métricas de Teste](./arquivos/templates/metricas.md)
+📊 [Métricas de Teste](./metricas.md)
 
-📈 [Relatório de Teste](./arquivos/templates/relatorio.md)  
+📈 [Relatório de Teste](./relatorio.md)  
 
-📝 [Check list de Teste](./arquivos/templates/Checklist_teste.md)  
+📝 [Check list de Teste](./Checklist_teste.md)  
 
-📘 [Relatório Final de Testes](./arquivos/templates/relatorio_final.md)
+📘 [Relatório Final de Testes](./relatorio_final.md)
 
 ---

@@ -28,8 +28,8 @@ hide_title: true
 
 ## 📚 Links úteis
 
-👾 [Dicas de Markdown](./arquivos/links_uteis/markdown-cheatsheet.md)  
+👾 [Dicas de Markdown](./markdown-cheatsheet.md)  
 
-📄 [Comandos git](./arquivos/links_uteis/git-cheatsheet.md)  
+📄 [Comandos git](./git-cheatsheet.md)  
 
-😍 [Emojis pra Doc](./arquivos/links_uteis/icones.md)
+😍 [Emojis pra Doc](./icones.md)
