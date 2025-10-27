@@ -1,124 +1,17 @@
-// ...existing code...
----
-layout: content
-title: "Central de Qualidade de Software"
-permalink: /
----
 
-<!-- Home mais atrativa: hero + cards em colunas (Bootstrap) -->
+{% include head.html %}
 
-<!-- HERO -->
-<section class="py-5 mb-4 bg-light rounded-3">
-  <div class="container">
-    <div class="row align-items-center g-3">
-      <div class="col-md-8">
-        <h1 class="display-5 mb-2">Central de Qualidade de Software</h1>
-        <p class="lead mb-0">Tudo que você precisa para aprender e aplicar QA de forma prática — guias, templates e exemplos para times e profissionais.</p>
-      </div>
-      <div class="col-md-4 text-md-end">
-        <!-- ícone grande (SVG) -->
-        <svg width="96" height="96" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" class="d-inline-block">
-          <rect x="1.5" y="1.5" width="21" height="21" rx="4" stroke="currentColor" stroke-width="1.2" fill="#f0f7f4"/>
-          <path d="M7.5 12.2l2.6 2.6 6.4-6.4" stroke="#0b63ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+{% include navbar.html %}
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-12">
+        {{ content }}
       </div>
     </div>
   </div>
-</section>
 
-<!-- QUICK ACCESS: cards em colunas -->
-<section class="container mb-5">
-  <div class="row g-3">
-    <div class="col-12 col-md-6 col-lg-3">
-      <a class="card h-100 text-decoration-none text-reset shadow-sm" href="{{ '/arquivos/guias/' | relative_url }}" aria-label="Guias">
-        <div class="card-body d-flex flex-column align-items-start">
-          <div class="mb-3">
-            <!-- svg pequeno -->
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M3 5h14v14H3z" stroke="#0b63ff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="#eef6ff"/>
-              <path d="M7 9h8" stroke="#0b63ff" stroke-width="1.2" stroke-linecap="round"/>
-              <path d="M7 13h5" stroke="#0b63ff" stroke-width="1.2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h5 class="card-title mb-1">Guias</h5>
-          <p class="card-text small text-muted mb-0">Níveis de teste, técnicas, estratégia e guias práticos para QA.</p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <a class="card h-100 text-decoration-none text-reset shadow-sm" href="{{ '/arquivos/templates/' | relative_url }}" aria-label="Templates">
-        <div class="card-body d-flex flex-column align-items-start">
-          <div class="mb-3">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <rect x="3" y="4" width="18" height="16" rx="2" stroke="#0b63ff" stroke-width="1.4" fill="#f7fbff"/>
-              <path d="M7 9h10" stroke="#0b63ff" stroke-width="1.2" stroke-linecap="round"/>
-              <path d="M7 13h6" stroke="#0b63ff" stroke-width="1.2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h5 class="card-title mb-1">Templates</h5>
-          <p class="card-text small text-muted mb-0">Planos de teste, casos, checklists e relatórios prontos para usar.</p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <a class="card h-100 text-decoration-none text-reset shadow-sm" href="{{ '/' | relative_url }}#boas-práticas" aria-label="Boas práticas">
-        <div class="card-body d-flex flex-column align-items-start">
-          <div class="mb-3">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M12 2v6" stroke="#0b63ff" stroke-width="1.6" stroke-linecap="round"/>
-              <path d="M6 8v12h12V8" stroke="#0b63ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="#f0fbf7"/>
-            </svg>
-          </div>
-          <h5 class="card-title mb-1">Boas práticas</h5>
-          <p class="card-text small text-muted mb-0">Orientações para documentação, execução e revisão de testes.</p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-12 col-md-6 col-lg-3">
-      <a class="card h-100 text-decoration-none text-reset shadow-sm" href="{{ '/arquivos/links_uteis/' | relative_url }}" aria-label="Links úteis">
-        <div class="card-body d-flex flex-column align-items-start">
-          <div class="mb-3">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M10 14l6-6" stroke="#0b63ff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M14 14v-4" stroke="#0b63ff" stroke-width="1.4" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h5 class="card-title mb-1">Links úteis</h5>
-          <p class="card-text small text-muted mb-0">Atalhos rápidos: cheatsheets, comandos git e ícones para docs.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Destaques / Colunas com ícones grandes -->
-<section class="container mb-5">
-  <div class="row g-4">
-    <div class="col-12 col-md-4">
-      <div class="p-4 rounded-3 border h-100">
-        <h4>Aprenda</h4>
-        <p class="text-muted small">Guias passo a passo para entender níveis de teste, design de casos e estratégia.</p>
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="p-4 rounded-3 border h-100">
-        <h4>Pratique</h4>
-        <p class="text-muted small">Modelos e exemplos prontos para preencher e usar em projetos reais.</p>
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="p-4 rounded-3 border h-100">
-        <h4>Compartilhe</h4>
-        <p class="text-muted small">Documente e versionize no Git para colaboração e controle de mudanças.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Rodapé simples local (o layout também inclui o footer global) -->
-<section class="container mb-5 text-center">
-  <small class="text-muted">Precisa de algo que não está aqui? Abra uma issue no repositório ou envie um PR com sugestões.</small>
-</section>
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>

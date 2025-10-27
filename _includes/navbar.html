@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+      😍 {{ site.title | default: "Vicsa" }}
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#vicsaNavbar" aria-controls="vicsaNavbar" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="vicsaNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <!-- Guias -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">🧭 Guias</a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="guiasDropdown">
+            <li><a class="dropdown-item" href="{{ '/arquivos/guias/stlc.html' | relative_url }}">🔄 Ciclo de Vida do Software</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/guias/testes_a_z.html' | relative_url }}">🔍 Testes</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/guias/test_design.html' | relative_url }}">✨ Design de Casos de Teste</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/guias/estrategia_teste.html' | relative_url }}">🧭 Estratégia</a></li>
+          </ul>
+        </li>
+
+        <!-- Templates -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="templatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">📋 Templates</a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="templatesDropdown">
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/Plano_de_teste.html' | relative_url }}">🧪 Plano de Teste</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/Checklist_teste.html' | relative_url }}">📝 Checklist</a></li>
+          </ul>
+        </li>
+
+        <!-- Boas práticas (link simples) -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/arquivos/boas-praticas/' | relative_url }}">🧩 Boas práticas</a>
+        </li>
+
+        <!-- Links úteis -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">📚 Links úteis</a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="linksDropdown">
+            <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/markdown-cheatsheet.html' | relative_url }}">👾 Markdown</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/icones.html' | relative_url }}">😍 Ícones</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

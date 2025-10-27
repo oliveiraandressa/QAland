@@ -1,159 +1,25 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-    <!-- Favicon -->
-  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="icon" href="{{ '/assets/images/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}" sizes="180x180">
-  <meta name="theme-color" content="#ffffff">
 
+{% include head.html %}
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+{% include navbar.html %}
 
-  <!-- Project CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-</head>
-<body>
-
-  <!-- Skip link para acessibilidade -->
-  <a class="visually-hidden-focusable" href="#main-content">Ir para o conteúdo</a>
-
-  <!-- Navbar com dropdowns baseados no README -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo da Vicsa" width="28" height="28" class="me-2">
-        {{ site.title | default: "Vicsa" }}
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#vicsaNavbar" aria-controls="vicsaNavbar" aria-expanded="false" aria-label="Alternar navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="vicsaNavbar">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-          <!-- Guias -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="guiasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              🧭 Guias
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="guiasDropdown">
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/stlc.html' | relative_url }}">🔄 Ciclo de Vida do Software</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/testes_a_z.html' | relative_url }}">🔍 Testes (Níveis, técnicas e tipos)</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/test_design.html' | relative_url }}"> ✨ Design de Casos de Teste</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/estrategia_teste.html' | relative_url }}">🧭 Estratégia de Testes</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/automacao.html' | relative_url }}">⚙️ Automação de Testes</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/ciclo_bug.html' | relative_url }}">🐞 Registro e Ciclo de Bug</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/revisao.html' | relative_url }}">🧠 Revisão e Validação de Testes</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/guias/metricas.html' | relative_url }}">📈 Métricas e Relatórios de Teste</a></li>
-            </ul>
-          </li>
-
-          <!-- Templates -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="templatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              📋 Templates
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="templatesDropdown">
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Plano_de_teste.html' | relative_url }}">🧪 Plano de Teste</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Caso_de_teste.html' | relative_url }}">🧩 Caso de Teste (BDD)</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/teste_automatizado.html' | relative_url }}">🤖 Caso de Teste Automatizado</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/bug.html' | relative_url }}">🐞 Bug Report</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/metricas.html' | relative_url }}">📊 Métricas de Teste</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio.html' | relative_url }}">📈 Relatório de Teste</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/Checklist_teste.html' | relative_url }}">📝 Check list de Teste</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio_final.html' | relative_url }}">📘 Relatório Final de Testes</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/arquivos/boas-praticas/' | relative_url }}">
-              🧩 Boas práticas
-            </a>
-          </li>
-
-          <!-- Links úteis -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              📚 Links úteis
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="linksDropdown">
-              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/markdown-cheatsheet.html' | relative_url }}">👾 Dicas de Markdown</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/git-cheatsheet.html' | relative_url }}">📄 Comandos git</a></li>
-              <li><a class="dropdown-item" href="{{ '/arquivos/links_uteis/icones.html' | relative_url }}">😍 Emojis pra Doc</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Main container -->
   <div class="container mb-5">
     <div class="row">
       <div class="col-12">
-        <div class="col-12">
-          <a href="{{ '/' | relative_url }}" class="back-link d-inline-flex align-items-center" aria-label="Voltar para a página principal">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span class="ms-2">Voltar</span>
-          </a>
-        </div>
+        <a href="{{ '/' | relative_url }}" class="back-link d-inline-flex align-items-center" aria-label="Voltar para a página principal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="ms-2"></span>
+        </a>
       </div>
       <div class="col-12">
         {{ content }}
       </div>
     </div>
   </div>
-  <footer class="site-footer bg-light border-top mt-4" role="contentinfo" aria-label="Rodapé do site">
-    <div class="container py-4">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          <a href="{{ '/' | relative_url }}" class="d-inline-flex align-items-center text-decoration-none site-brand">
-            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo da Vicsa" width="28" height="28" class="me-2">
-            <span class="fw-semibold">{{ site.title | default: "Vicsa" }}</span>
-          </a>
-          <div class="small text-muted mt-2">Central de Qualidade de Software — materiais e templates de QA</div>
-        </div>
 
-        <div class="col-md-6 text-center text-md-end">
-          <ul class="list-inline mb-0">
-            <!-- <li class="list-inline-item"><a href="{{ '/arquivos/guias/' | relative_url }}">Guias</a></li>
-            <li class="list-inline-item"><a href="{{ '/arquivos/templates/' | relative_url }}">Templates</a></li>
-            <li class="list-inline-item"><a href="{{ '/estudo/glossario/' | relative_url }}">Glossário</a></li> -->
-            <li class="list-inline-item"><a href="https://github.com/oliveiraandressa">Contato</a></li>
-          </ul>
-          <div class="small text-muted mt-2">© {{ 'now' | date: "%Y" }} {{ site.title }}</div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-  <!-- Aprimora tabelas Markdown: wrapper responsivo + classes Bootstrap -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('.markdown-body table').forEach(function (table) {
-        if (!table.classList.contains('table')) {
-          table.classList.add('table', 'table-striped', 'table-bordered', 'align-middle');
-        }
-        var parent = table.parentElement;
-        if (!parent.classList.contains('table-responsive')) {
-          var wrapper = document.createElement('div');
-          wrapper.className = 'table-responsive';
-          parent.insertBefore(wrapper, table);
-          wrapper.appendChild(table);
-        }
-      });
-    });
-  </script>
+{% include footer.html %}
+{% include scripts.html %}
 </body>
 </html>
