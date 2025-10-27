@@ -9,20 +9,20 @@ hide_title: true
  -->
 ## 🧭 Guias
 
-🔄 [Guia do Ciclo de Vida do Software](./stlc.md)  
+🔄 [Ciclo de Vida do Software](./stlc.md)  
 
-🔍 [Guia de Testes (Níveis, técnicas e tipos)](./testes_a_z.md)
+🔍 [Testes (Níveis, técnicas e tipos)](./testes_a_z.md)
 
-✨ [Guia de Técnicas de Design de Casos de Teste](./test_design.md)
+✨ [Técnicas de Design de Casos de Teste](./test_design.md)
 
-🧭 [Guia de Estratégia de Testes](./estrategia_teste.md)  
+🧭 [Estratégia de Testes](./estrategia_teste.md)  
 
-⚙️ [Guia de Automação de Testes](./automacao.md)
+⚙️ [Automação de Testes](./automacao.md)
 
-🐞 [Guia de Registro e Ciclo de Bug](./ciclo_bug.md)
+🐞 [Registro e Ciclo de Bug](./ciclo_bug.md)
 
-🧠 [Guia de Revisão e Validação de Testes](./revisao.md) 
+🧠 [Revisão e Validação de Testes](./revisao.md) 
 
-📊 [Guia de Métricas e Relatórios de Teste](./metricas.md)
+📊 [Métricas e Relatórios de Teste](./metricas.md)
 
 ---
