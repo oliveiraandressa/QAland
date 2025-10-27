@@ -25,6 +25,8 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Estimar tempo, custo e esforço.
 - Criar e aprovar o **Plano de Teste**.
 
+---
+
 ## 🔍 2. Análise do Teste (Test Analysis)
 
 **Objetivo:** Identificar *o que* precisa ser testado e garantir que os requisitos sejam testáveis.
@@ -35,14 +37,6 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Validar critérios de aceitação.
 - Determinar tipos de teste necessários (funcional, integração, performance, etc).
 - Iniciar matriz de rastreabilidade entre requisitos e condições de teste.
-
-### ✅ Checklist:
-- [ ] Requisitos revisados e validados  
-- [ ] Condições de teste identificadas  
-- [ ] Critérios de aceitação revisados  
-- [ ] Tipos de teste definidos  
-- [ ] Requisitos ambíguos reportados  
-- [ ] Itens de rastreabilidade criados  
 
 ---
 
@@ -58,14 +52,6 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Priorizar casos de teste (críticos, médios, baixos).  
 - Planejar automação de testes (quando aplicável).
 
-### ✅ Checklist:
-- [ ] Casos de teste criados e revisados  
-- [ ] Cobertura de requisitos verificada  
-- [ ] Massa de dados preparada e documentada  
-- [ ] Matriz de rastreabilidade atualizada  
-- [ ] Casos priorizados (crítico, médio, baixo)  
-- [ ] Scripts automatizados revisados (se houver)  
-
 ---
 
 ## 🧱 4. Configuração do Ambiente (Test Environment Setup)
@@ -78,14 +64,6 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Configurar ferramentas de integração, logs e rastreamento.  
 - Verificar compatibilidade de versões e acessos.  
 - Executar **Smoke Test** para validar estabilidade inicial.
-
-### ✅ Checklist:
-- [ ] Ambiente configurado e acessível  
-- [ ] Build correto instalado  
-- [ ] Banco de dados e APIs configurados  
-- [ ] Ferramentas integradas (Jira, Jenkins, etc)  
-- [ ] Smoke test executado com sucesso  
-- [ ] Acesso liberado para testadores  
 
 ---
 
@@ -102,15 +80,7 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Executar testes de regressão.  
 - Atualizar status e métricas no sistema de testes.
 
-### ✅ Checklist:
-- [ ] Casos de teste executados  
-- [ ] Evidências coletadas e anexadas  
-- [ ] Defeitos documentados e priorizados  
-- [ ] Retestes realizados  
-- [ ] Testes de regressão executados  
-- [ ] Status atualizado no sistema  
-
----
+--- 
 
 ## 📊 6. Encerramento do Teste (Test Closure)
 
@@ -123,14 +93,4 @@ Cada fase tem entregas e objetivos claros — abaixo, um guia completo com **che
 - Conduzir retrospectiva e lições aprendidas.  
 - Arquivar evidências e documentos.  
 
-### ✅ Checklist:
-- [ ] Todos os testes planejados executados  
-- [ ] Cobertura total dos requisitos validada  
-- [ ] Defeitos críticos resolvidos ou aceitos  
-- [ ] Relatório final entregue  
-- [ ] Métricas coletadas e analisadas  
-- [ ] Reunião de lições aprendidas realizada  
-- [ ] Artefatos arquivados  
-
 ---
-
