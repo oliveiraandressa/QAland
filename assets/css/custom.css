@@ -6,8 +6,8 @@
     --link: #222;
     --link-hover: #041738;
     --bs-heading-color: #06163a;
-    --code-bg: #f5f5f5;
-    --pre-bg: #f5f5f5;
+    --code-bg: #e9e9e9;
+    --pre-bg: #e9e9e9;
     --pre-color: #222;
     --border: #ddd;
 }
@@ -189,9 +189,19 @@ li.task-list-item {
 .task-list-item-checkbox{
     margin-right: 5px;
 }
+
 .task-list{
     padding-left: 20px;
 }
+
 .big-icon{
     font-size: xx-large;
+}
+
+.highlight{
+    background: var(--pre-bg) !important;
+    color: var(--pre-color);
+    padding: 15px;
+    border-radius: 10px !important;
+    overflow: auto;
 }

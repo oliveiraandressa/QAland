@@ -11,25 +11,25 @@ hide_title: true
 ## 📋 Templates 
 
 ### Geral
-🧪 [Plano de Teste](./Plano_de_teste.md)  
+🧪 [Plano de Teste](./Plano_de_teste.html)  
 
 ### Pra usar no plano de teste
 
-🧩 [Caso de Teste (usando BDD)](./Caso_de_teste.md)  
+🧩 [Caso de Teste (usando BDD)](./Caso_de_teste.html)  
 
-🤖 [Caso de Teste Automatizado](./teste_automatizado.md)  
+🤖 [Caso de Teste Automatizado](./teste_automatizado.html)  
 
-🐞 [Bug Report](./bug.md)
+🐞 [Bug Report](./bug.html)
 
-📊 [Métricas de Teste](./metricas.md)  
+📊 [Métricas de Teste](./metricas.html)  
 
 ### Relatórios
 
-📈 [Relatório de Teste](./relatorio.md)  
+📈 [Relatório de Teste](./relatorio.html)  
 
-📘 [Relatório Final de Testes](./relatorio_final.md)
+📘 [Relatório Final de Testes](./relatorio_final.html)
 
 ### Material de apoio
-📝 [Check list de Teste](./Checklist_teste.md)  
+📝 [Checklist - QA](./Checklist_teste.html)  
 
 ---

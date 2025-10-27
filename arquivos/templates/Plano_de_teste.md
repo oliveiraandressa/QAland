@@ -6,7 +6,10 @@ hide_title: true
 
 
 
-# 🤖 Plano de Teste - Sistema de Portfólio Online
+# 🤖 Plano de teste
+Exemplo de plano de teste
+
+## Plano de Teste - Sistema de Portfólio Online
 
 ## 📘 Informações Gerais
 - **Projeto:** Sistema de Portfólio Online  
@@ -193,7 +196,7 @@ Funcionalidades adicionais podem passar por testes de aceitação posteriormente
 
 
 ```md
-# 🤖 Template de Plano de Teste
+# 🤖 Plano de Teste
 
 ## 📘 Informações Gerais
 - **Projeto:** {preencher}  

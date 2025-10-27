@@ -3,12 +3,6 @@ layout: content
 title: ''
 hide_title: true
 ---
-// ...existing code...
----
-layout: content
-title: ''
-hide_title: true
----
 
 
 # 🧩 ÍCONES ÚTEIS PRA DOC QA / DEV
