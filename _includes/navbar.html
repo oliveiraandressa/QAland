@@ -23,10 +23,28 @@
 
         <!-- Templates -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="templatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">📋 Templates</a>
+          <a class="nav-link dropdown-toggle" href="#" id="templatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            📋 Templates
+          </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="templatesDropdown">
+            <!-- Índice / Geral -->
             <li><a class="dropdown-item" href="{{ '/arquivos/templates/Plano_de_teste.html' | relative_url }}">🧪 Plano de Teste</a></li>
-            <li><a class="dropdown-item" href="{{ '/arquivos/templates/Checklist_teste.html' | relative_url }}">📝 Checklist</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-header">Pra usar no plano de teste</li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/Caso_de_teste.html' | relative_url }}">🧩 Caso de Teste (BDD)</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/teste_automatizado.html' | relative_url }}">🤖 Caso de Teste Automatizado</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/bug.html' | relative_url }}">🐞 Bug Report</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/metricas.html' | relative_url }}">📊 Métricas de Teste</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-header">Relatórios</li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio.html' | relative_url }}">📈 Relatório de Teste</a></li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/relatorio_final.html' | relative_url }}">📘 Relatório Final de Testes</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-header">Material de apoio</li>
+            <li><a class="dropdown-item" href="{{ '/arquivos/templates/Checklist_teste.html' | relative_url }}">📝 Check list de Teste</a></li>
           </ul>
         </li>
 
