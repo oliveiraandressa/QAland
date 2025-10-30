@@ -205,3 +205,36 @@ li.task-list-item {
     border-radius: 10px !important;
     overflow: auto;
 }
+
+/* Estilos para tabelas Markdown */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  table-layout: auto;
+  word-break: break-word;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+  text-align: left;
+  background-clip: padding-box;
+}
+
+table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+/* Responsividade: permitir scroll horizontal */
+.table-responsive-md {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
