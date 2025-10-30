@@ -9,7 +9,7 @@ Exemplo de Template pra caso de teste
 
 ---
 
-### 💡 **Cenário de Teste**
+### 💡 **Caso de Teste**
 
 **Título:** _{Título do Caso}_  
 **ID:** `CT-001`  
@@ -64,7 +64,7 @@ Exemplo de Template pra caso de teste
 
 ---
 
-### 💡 **Cenário de Teste**
+### 💡 **Caso de Teste**
 
 **Título:** _{Título do Caso}_  
 **ID:** `CT-001`  
