@@ -4,9 +4,6 @@ title: ''
 hide_title: true
 ---
 
-<!--
- TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
- -->
 ## 🧭 Guias
 
 🔄 [Ciclo de Vida do Software](./stlc.html)  

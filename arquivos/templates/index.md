@@ -4,10 +4,6 @@ title: ''
 hide_title: true
 ---
 
-<!--
- TODO: deixar os tamplates baixaveis e com uma versão de exemplo 
- -->
-
 ## 📋 Templates 
 
 ### Geral

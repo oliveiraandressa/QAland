@@ -1,8 +1,4 @@
-<!--
- TODO: deixar os templates baixaveis e com uma versão de exemplo 
- TODO: organizar icones
- TODO: Adicionar um menu 
- -->
+
 # 😍 Central de Qualidade de Software
 Tudo que você precisa para aprender e aplicar QA de forma prática.
 
