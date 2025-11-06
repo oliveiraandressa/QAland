@@ -6,7 +6,7 @@ hide_title: true
 
 ## 🧭 Guias
 
-🔄 [Ciclo de Vida do Software](./stlc.html)  
+🔄 [Ciclo de Vida do Teste de Software](./stlc.html)  
 
 🔍 [Testes (Níveis, técnicas e tipos)](./testes_a_z.html)
 
