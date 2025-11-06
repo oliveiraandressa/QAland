@@ -5,7 +5,7 @@ Tudo que você precisa para aprender e aplicar QA de forma prática.
 
 ## 🧭 Guias
 
-🔄 [Guia do Ciclo de Vida do Software](./arquivos/guias/stlc.md)  
+🔄 [Guia do Ciclo de Vida do Teste de Software](./arquivos/guias/stlc.md)  
 
 🔍 [Guia de Testes (Níveis, técnicas e tipos)](./arquivos/guias/testes_a_z.md)
 
